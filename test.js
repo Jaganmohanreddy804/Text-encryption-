@@ -1,6 +1,6 @@
 const { encrypt, decrypt } = require('./encryption');
 
-const message = 'Hello, world!';
+const message = 'Hello, world! This is my file';
 const encryptedMessage = encrypt(message);
 const decryptedMessage = decrypt(encryptedMessage);
 
